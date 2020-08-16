@@ -12,7 +12,7 @@
 	</div>
 	
 	<div class="parallax" style="opacity: 30%;">
-		<img src="<?php echo basis_url('assets/img/home/image3856-min.png'); ?>">
+		<img src="<?php echo basis_url('assets/img/home/image3856-min.png'); ?>" style="opacity: 30%;">
 	</div>
 
 </div>
