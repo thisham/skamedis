@@ -1,0 +1,82 @@
+<div class="parallax-container center valign-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col s12 black-text">
+				<h2>SMK Mitra Sehat Mandiri Sidoarjo</h2>
+				<h5>Jalan Ki Hajar Dewantara 200, Katerungan, Krian <br> Sidoarjo -- 61262</h5>
+			</div>
+		</div>
+	</div>
+	
+	<div class="parallax" style="opacity: 30%;">
+		<img src="<?php echo basis_url('assets/img/home/image3856-min.png'); ?>">
+	</div>
+
+</div>
+
+<div class="container">
+	<h4 class="animate__fadeInUp center">VISI</h4>
+	<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua.</h5>
+	<br>
+	<h4 class="center">MISI</h4>
+	<h6>
+	<ol>
+		<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</li>
+		<li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+		<li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+	</ol>
+	</h6>
+	<br>
+</div>
+
+<div class="parallax-container center valign-wrapper">
+	<div class="parallax"><img src="<?php echo basis_url('assets/img/home/image72-min.png'); ?>">
+	</div>
+	
+	<div class="container white-text">
+		<div class="row">
+			<div class="col s12">
+				<h1>Discover Excellence.</h1>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<h4 class="animate__fadeInUp center">SEJARAH</h4>
+	<div class="timeline">
+		<div class="timeline__wrap">
+			<div class="timeline__items">
+				<div class="timeline__item">
+					<div class="timeline__content">
+						<h2>2010</h2>
+						<p>SMK Mitra Sehat Mandiri Sidoarjo resmi dibuka dan menerima peserta didik baru di tiga jurusan bidang kesehatan.</p>
+					</div>
+				</div>
+				<div class="timeline__item timeline__item--right">
+					<div class="timeline__content">
+						<h2>2018</h2>
+						<p>SMK Mitra Sehat Mandiri Sidoarjo membuka program studi Nautika Kapal Niaga dan Nautika Kapal Penangkap Ikan</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card">
+		<div class="card-content">
+			<h4 class="card-header center">Now 2020</h4>
+			<p class="center">---</p>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$(document).ready(function () {
+		$('.timeline').timeline({
+			mode: 'horizontal';
+			visibleItems: 5;
+		})
+	})
+</script>

@@ -12,7 +12,7 @@
 	</div>
 	
 	<div class="parallax" style="opacity: 30%;">
-		<img src="https://images.unsplash.com/photo-1429081172764-c0ee67ab9afd?dpr=1&auto=format&fit=crop&w=1500&h=927&q=80&cs=tinysrgb&crop=">
+		<img src="<?php echo basis_url('assets/img/home/image3856-min.png'); ?>">
 	</div>
 
 </div>
@@ -24,31 +24,32 @@
 				<h2 class="center">
 					<span class="icon"><i class="material-icons large red-text">school</i></span>
 				</h2>
-				<h5 class="center">Speeds up development</h5>
+				<h5 class="center">Lulusan Unggul di Dunia Kerja</h5>
 				<p class="light">
-					We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.
+					Lulusan dibekali berbagai macam kompetensi yang sesuai dengan jurusannya. Oleh karena itu, lulusan-lulusan kami mampu bersaing di dunia kerja dalam kancah nasional maupun internasional.
 				</p>
 			</div>
 		</div>
 		<div class="col m4 s12">
 			<div class="icon-block">
 				<h2 class="center light-blue-text">
-					<i class="material-icons large">group</i>	
+					<i class="material-icons large">local_library</i>	
 				</h2>
-				<h5 class="center">User Experience Focused</h5>
+				<h5 class="center">Lingkungan yang Mendukung Proses Belajar</h5>
 				<p class="light">
-					By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.
+					Kami menyediakan berbagai fasilitas pendukung untuk kegiatan belajar-mengajar, sehingga dapat ...
 				</p>
 			</div> 
 		</div>
 		<div class="col m4 s12">
 			<div class="icon-block">
 				<h2 class="center light-blue-text">
-					<i class="material-icons large">settings</i>	
+					<i class="material-icons large">work</i>	
 				</h2>
-				<h5 class="center">Easy to work with</h5>
+				<h5 class="center">Prospek Kerja Bagus di Masa Depan</h5>
 				<p class="light">
-					We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.
 				</p>
 			</div> 
 		</div>
@@ -56,20 +57,20 @@
 </div>
 
 <div class="parallax-container center valign-wrapper">
-	<div class="parallax"><img src="https://images.unsplash.com/photo-1463780324318-d1a8ddc05a11?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=">
+	<div class="parallax" style="opacity: 30%;"><img src="<?php echo basis_url('assets/img/home/kelas-min.png'); ?>">
 	</div>
 	
 	<div class="container white-text">
 		<div class="row">
 			<div class="col s12">
-				<h4>Majors</h4>
+				<h4 class="black-text">Program Studi</h4>
 
 				<div class="slider">
 					<div materialize="carousel" [materializeParams]="[{full_width: true}]" class="carousel carousel-slider center" data-indicators="true">
 						<div class="carousel-fixed-item center">
-							<a class="btn waves-effect white black-text darken-text-2">Take an Admission</a>
+							<a class="btn waves-effect white black-text darken-text-2">Daftar Sekarang</a>
 						</div>
-						<div class="carousel-item red white-text" href="#one!" style="background-image: url('https://images.unsplash.com/photo-1463780324318-d1a8ddc05a11?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop='); background-size: 200%;">
+						<div class="carousel-item red white-text" href="#one!" style="background-image: url('https://images.unsplash.com/photo-1463780324318-d1a8ddc05a11?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop='); background-size: 300%;">
 							<h2>Nautika Kapal Niaga</h2>
 							<p class="white-text">ASDASDSASD</p>
 							<a class="btn waves-effect blue white-text darken-text-2">Selengkapnya<i class="material-icons right">chevron_right</i></a>
@@ -110,7 +111,7 @@
 </div>
 
 <div class="parallax-container center valign-wrapper">
-	<div class="parallax"><img src="https://images.unsplash.com/photo-1489289827069-adf270f4f417?dpr=1&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=">
+	<div class="parallax"><img src="<?php echo basis_url('assets/img/home/image72-min.png'); ?>">
 	</div>
 	
 	<div class="container white-text">
@@ -130,7 +131,6 @@
 
 <script type="text/javascript">
 	$(document).ready(function () {
-		$('.parallax').parallax();
 		$('.slider').slider({
 			indicators: false
 		});

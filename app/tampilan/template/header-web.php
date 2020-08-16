@@ -10,6 +10,8 @@
 	<script src="<?php echo basis_url('assets/js/jquery-3.5.1.js'); ?>"></script>
 	<script src="<?php echo basis_url('assets/js/materialize.js'); ?>"></script>
 	<script src="<?php echo basis_url('assets/js/sweetalert.min.js'); ?>"></script>
+	<script src="<?php echo basis_url('assets/js/timeline.min.js'); ?>"></script>
+	<link rel="stylesheet" type="text/css" href="<?php echo basis_url('assets/css/timeline.min.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo basis_url('assets/css/materialize.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo basis_url('assets/css/animate.min.css'); ?>">
 
