@@ -9,7 +9,7 @@
 		</div>
 	</div>
 	
-	<div class="parallax" style="opacity: 30%;">
+	<div class="parallax cover-header" style="opacity: 30%;">
 		<img src="<?php echo basis_url('assets/img/home/image3856-min.png'); ?>">
 	</div>
 

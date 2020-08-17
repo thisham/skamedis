@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
 	<title><?php echo $title; ?> - SMK Mitra Sehat Mandiri Sidoarjo</title>
 	<meta charset="utf-8">
@@ -21,6 +21,24 @@
 			display: flex;
 			min-height: 100vh;
 			flex-direction: column;
+		}
+
+		body.custom-background, .cover-header {
+			background-size: 0 0;
+		}
+		
+		body.custom-background:before, .cover-header:before {
+			content: "";
+			top: 0; 
+			left: 0; 
+			bottom: 0;
+			right: 0;
+			background-image: inherit;
+			background-size: cover;
+			background-position: inherit;
+			background-repeat: inherit;
+			position: fixed;
+			z-index: -1;
 		}
 
 		main {
