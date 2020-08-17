@@ -2,8 +2,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col s12 black-text">
-				<h2>SMK Mitra Sehat Mandiri Sidoarjo</h2>
-				<h5>Jalan Ki Hajar Dewantara 200, Katerungan, Krian <br> Sidoarjo -- 61262</h5>
+				<h3>SMK Mitra Sehat Mandiri Sidoarjo</h3>
+				<br>
+				<h6>Jalan Ki Hajar Dewantara 200, Katerungan, Krian <br> Sidoarjo -- 61262</h6>
 			</div>
 		</div>
 	</div>

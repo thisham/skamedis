@@ -1,3 +1,11 @@
+<style type="text/css">
+	a.gbr-logo {
+		height: 100%;
+		display: flex; 
+		justify-content: center; 
+		align-items: center;
+	}
+</style>
 <nav class="navbar indigo">
 	<div class="container">
 		<div class="nav-wrapper">
@@ -6,12 +14,9 @@
 					<a href="#" class="sidenav-trigger hide-on-large-only" data-target="slide-out">
 						<i class="material-icons">menu</i>
 					</a>
-					<a href="<?php echo basis_url(); ?>" class="brand-logo show-on-small-only" style="height: 100%;">
+					<a href="<?php echo basis_url(); ?>" class="brand-logo gbr-logo">
 						<img src="<?php echo basis_url('assets/img/logo_name_w.png'); ?>" style="max-height: 40pt;">		
-					</a>
-					<a href="<?php echo basis_url(); ?>" class="brand-logo hide-on-med-and-down" style="height: 100%; display: flex; justify-content: center; align-items: center;">
-						<img src="<?php echo basis_url('assets/img/logo_name_w.png'); ?>" style="max-height: 40pt;">		
-					</a>
+					</a>		
 				</div>
 				<div class="col l6 hide-on-med-and-down">
 					<ul id="nav-mobile" class="right hide-on-med-and-down">
