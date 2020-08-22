@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<title>Tentang - SMK Mitra Sehat Mandiri Sidoarjo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="../assets/js/jquery-3.5.1.js"></script>
+	<script src="../assets/js/materialize.js"></script>
+	<script src="../assets/js/sweetalert.min.js"></script>
+	<script src="../assets/js/timeline.min.js"></script>
+	<script src="https://kit.fontawesome.com/10605e2dfc.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="../assets/css/timeline.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/materialize.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/animate.min.css">
+
+	<style type="text/css">
+		body {
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			min-height: 100vh;
+			flex-direction: column;
+		}
+
+		body.custom-background, .cover-header {
+			background-size: 0 0;
+		}
+
+		body.custom-background:before, .cover-header:before {
+			content: "";
+			top: 0; 
+			left: 0; 
+			bottom: 0;
+			right: 0;
+			background-image: inherit;
+			background-size: cover;
+			background-position: inherit;
+			background-repeat: inherit;
+			position: fixed;
+			z-index: -1;
+		}
+
+		main {
+			flex: 1 0 auto;
+		}
+		
+		.input-field input:focus + label {
+			color: #536dfe !important;
+		}
+	
+		.input-field input:focus {
+			border-bottom: 1px solid #536dfe !important;
+			box-shadow: 0 1px 0 0 #536dfe !important;
+		}
+
+		.input-field .prefix.active {
+			color: #536dfe;
+		}
+
+		.faftr {
+			color: white;
+		}
+
+		a.gbr-logo {
+			height: 100%;
+			display: flex; 
+			justify-content: center; 
+			align-items: center;
+		}
+
+		a.gbr-logo-sm {
+			height: 1.0;
+			display: flex; 
+			justify-content: center; 
+			align-items: center;
+		}
+
+		.carousel{
+			/*z-index: 100;*/
+			/*max-width: 350px !important;*/
+			max-height: 500px !important;
+			/*padding: 20px;*/
+			/*padding-bottom: 20px;*/
+		}
+
+		/*.card{ 
+			border-radius: 8px; 
+			position: relative !important;
+			right: 20px !important;
+		}*/
+
+		/*nav.navbar
+		{
+			top: 0;
+			position: fixed;
+			width: 100%;
+			z-index: 100;
+		}*/
+	</style>
+</head>
+
+<body>
+	<main>
+		<nav class="navbar indigo">
+			<div class="had-container">
+				<div class="nav-wrapper">
+					<div class="row">
+						<div class="col l6 m12 s12">
+							<a href="#" class="sidenav-trigger hide-on-large-only" data-target="slide-out">
+								<i class="material-icons">menu</i>
+							</a>
+							<a href="index" class="brand-logo gbr-logo hide-on-small-only">
+								<img src="../assets/img/logo_name_w.png" style="max-height: 40pt;">		
+							</a>
+							<a href="index" class="brand-logo gbr-logo-down hide-on-med-and-up">
+								<img src="../assets/img/logo_name_w.png" style="max-height: 40pt;">		
+							</a>		
+						</div>
+						<div class="col l6 hide-on-med-and-down">
+							<ul id="nav-mobile" class="right hide-on-med-and-down">
+								<li><a href="index">Beranda</a></li>
+								<li><a href="kegiatan">Kegiatan</a></li>
+								<li class="active"><a href="tentang">Tentang</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<ul class="sidenav" id="slide-out">
+			<li>
+				<div class="user-view center">
+					<div class="background">
+						<img src="../assets/img/account-def.jpg">
+					</div>
+					<a href="../assets/img/logo-smk.png">
+						<img src="../assets/img/image104.png" style="max-width: 80px;">
+					</a>
+					<br>
+					<a href="index">SMK Mitra Sehat Mandiri Sidoarjo</a>
+				</div>
+			</li>
+			<li><a href="index">Beranda</a></li>
+			<li><a href="kegiatan">Kegiatan</a></li>
+			<li class="active"><a href="tentang">Tentang</a></li>
+		</ul>
+
+		<div id="main-app">
+			<div class="parallax-container center valign-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col s12 black-text">
+							<h3>SMK Mitra Sehat Mandiri Sidoarjo</h3>
+							<br>
+							<h6>Jalan Ki Hajar Dewantara 200, Katerungan, Krian <br> Sidoarjo -- 61262</h6>
+						</div>
+					</div>
+				</div>
+				
+				<div class="parallax" style="opacity: 0.3;">
+					<img src="../assets/img/home/image3856-min.png">
+				</div>
+
+			</div>
+
+			<div class="container">
+				<h4 class="animate__fadeInUp center">VISI</h4>
+				<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</h5>
+				<br>
+				<h4 class="center">MISI</h4>
+				<h6>
+				<ol>
+					<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</li>
+					<li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+					<li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+				</ol>
+				</h6>
+				<br>
+			</div>
+
+			<div class="parallax-container center valign-wrapper">
+				<div class="parallax"><img src="../assets/img/home/image72-min.png">
+				</div>
+				
+				<div class="container white-text">
+					<div class="row">
+						<div class="col s12">
+							<h2>Kompeten, Jujur dalam Prestasi.</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<h4 class="animate__fadeInUp center">SEJARAH</h4>
+				<div class="timeline">
+					<div class="timeline__wrap">
+						<div class="timeline__items">
+							<div class="timeline__item">
+								<div class="timeline__content">
+									<h2>2010</h2>
+									<p>SMK Mitra Sehat Mandiri Sidoarjo resmi dibuka dan menerima peserta didik baru di tiga jurusan bidang kesehatan.</p>
+								</div>
+							</div>
+							<div class="timeline__item timeline__item--right">
+								<div class="timeline__content">
+									<h2>2018</h2>
+									<p>SMK Mitra Sehat Mandiri Sidoarjo membuka program studi Nautika Kapal Niaga dan Nautika Kapal Penangkap Ikan</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card-content">
+						<h4 class="card-header center">Now 2020</h4>
+						<p class="center">---</p>
+					</div>
+				</div>
+			</div>
+
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$('.timeline').timeline({
+						mode: 'horizontal';
+						visibleItems: 5;
+					})
+				})
+			</script>
+
+			<!-- <script src="../assets/js/web-script.js"></script> -->
+		</div>
+	</main>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.sidenav').sidenav();
+			$('.slider').slider();
+			$('.parallax').parallax();
+			$('.carousel').carousel({
+				fullWidth: false,
+				padding: 20,
+				dist: 0,
+				shift: 0
+			});
+			setInterval(function () {
+				$('.carousel').carousel('next');
+			}, 4000);
+		});
+	</script>
+	<!-- <script src="../assets/js/mvc-engine.js"></script> -->
+
+	<footer class="page-footer indigo">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 m6 s12">
+					<h5 class="white-text">SMK Mitra Sehat Mandiri Sidoarjo</h5>
+					<p class="grey-text text-lighten-4">Jalan Ki Hajar Dewantara 200, Krian, Sidoarjo <br> Jawa Timur -- 61262, Indonesia.</p>
+					<p><i class="material-icons left">phone</i> (031) 8987 404</p>
+					<p><i class="material-icons left">email</i> smkmitrasehatmandiri@gmail.com</p>
+					<div class="row">
+						<div class="col">
+							<h5 class="white-text">Akademik</h5>
+							<ul>
+								<li><a class="grey-text text-lighten-3" href="../index.php">Sistem Akademik</a></li>
+								<li><a class="grey-text text-lighten-3" href="#!">SI-PPDB</a></li>
+							</ul>
+						</div>
+						<div class="col">
+							<h5 class="white-text">Layanan</h5>
+							<ul>
+								<li><a class="grey-text text-lighten-3" href="#!">Sistem Akademik</a></li>
+								<li><a class="grey-text text-lighten-3" href="#!">SIPSIBA</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="row center">
+						<div class="col">
+							
+							<div class="row">
+								<div class="col"><h6 class="white-text">Media Sosial : </h6></div>
+								<div class="col"><a href="https://facebook.com/SKAMEDIS" class="fab fa-2x faftr fa-facebook-square"></a></div>
+								<div class="col"><a class="fab fa-2x faftr fa-twitter"></a></div>
+								<div class="col"><a href="https://instagram.com/smkmitrasehatofficial" class="fab fa-2x faftr fa-instagram"></a></div>
+							</div>
+						</div>	
+					</div>
+					<div class="row hide-on-med-and-up">
+						<div class="col">
+							<h5 class="white-text">Informasi Lokasi</h5>
+							<br>
+							<a href="https://goo.gl/maps/iU9CE7Tvc13qt1uv7" class="btn indigo darken-2 waves-effect waves-light"><i class="material-icons left">location_on</i> Lihat Peta</a>
+						</div>
+					</div>
+				</div>
+				<div class="col l6 m6 hide-on-small-only">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.214029188302!2d112.57780194983359!3d-7.41778648812873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78099f400cea1b%3A0xf0a65be6cb2f9f90!2sMitra%20Sehat%20Mandiri%20Sidoarjo!5e0!3m2!1sid!2sid!4v1597346340142!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 350px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				Copyleft 2020 CommIT Mitseda
+				<a class="fab fa-github fa-lg faftr right" href="https://github.com/thisham/skamedis.git"></a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
